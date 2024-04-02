@@ -20,7 +20,7 @@ local Osiris = {
     ["Themes"] = {{['Default']={Accent=Color3.fromRGB(255,22,22),lightcontrast=Color3.fromRGB(30,30,30),darkcontrast=Color3.fromRGB(25,25,25),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(50,50,50),textcolor=Color3.fromRGB(255,255,255),textborder=Color3.fromRGB(0,0,0),cursoroutline=Color3.fromRGB(10,10,10)},["Nebula"]={Accent=Color3.fromRGB(192,76,255),lightcontrast=Color3.fromRGB(17,19,23),darkcontrast=Color3.fromRGB(15,17,19),outline=Color3.fromRGB(31,29,29),inline=Color3.fromRGB(0,0,0),textcolor=Color3.fromRGB(192,192,192),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),cursoroutline=Color3.fromRGB(10,10,10)},["Neko"]={Accent=Color3.fromRGB(226,30,112),lightcontrast=Color3.fromRGB(18,18,18),darkcontrast=Color3.fromRGB(15,15,15),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(50,50,50),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Spotify"]={Accent=Color3.fromRGB(77,255,138),lightcontrast=Color3.fromRGB(18,18,18),darkcontrast=Color3.fromRGB(15,15,15),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(50,50,50),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Fatality"]={Accent=Color3.fromRGB(197,7,84),lightcontrast=Color3.fromRGB(30,24,66),darkcontrast=Color3.fromRGB(25,19,53),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(60,53,93),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Tokyo Night"]={Accent=Color3.fromRGB(103,89,179),lightcontrast=Color3.fromRGB(25,25,37),darkcontrast=Color3.fromRGB(22,22,31),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(50,50,50),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Kiriot Hub"]={Accent=Color3.fromRGB(255,170,0),lightcontrast=Color3.fromRGB(48,51,59),darkcontrast=Color3.fromRGB(26,28,32),outline=Color3.fromRGB(40,40,40),inline=Color3.fromRGB(0,0,0),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Jester"]={Accent=Color3.fromRGB(219,68,103),lightcontrast=Color3.fromRGB(36,36,36),darkcontrast=Color3.fromRGB(28,28,28),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(55,55,55),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Entrophy"]={Accent=Color3.fromRGB(143,181,214),lightcontrast=Color3.fromRGB(45,44,50),darkcontrast=Color3.fromRGB(37,37,42),outline=Color3.fromRGB(16,16,20),inline=Color3.fromRGB(68,67,76),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Interwebz"]={Accent=Color3.fromRGB(247,123,101),lightcontrast=Color3.fromRGB(32,25,43),darkcontrast=Color3.fromRGB(25,18,34),outline=Color3.fromRGB(26,20,36),inline=Color3.fromRGB(48,42,57),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Aimware"]={Accent=Color3.fromRGB(240,72,78),lightcontrast=Color3.fromRGB(31,31,31),darkcontrast=Color3.fromRGB(19,19,19),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(52,51,55),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Dark Lagoon"]={Accent=Color3.fromRGB(41,92,168),lightcontrast=Color3.fromRGB(38,43,60),darkcontrast=Color3.fromRGB(32,35,51),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(44,54,90),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Onetap"]={Accent=Color3.fromRGB(255,153,54),lightcontrast=Color3.fromRGB(46,46,46),darkcontrast=Color3.fromRGB(30,30,30),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(67,67,67),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Abyss"]={Accent=Color3.fromRGB(122,130,241),lightcontrast=Color3.fromRGB(32,32,32),darkcontrast=Color3.fromRGB(25,25,25),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(45,45,45),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Vape"]={Accent=Color3.fromRGB(32,110,87),lightcontrast=Color3.fromRGB(32,32,32),darkcontrast=Color3.fromRGB(25,25,25),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(45,45,45),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Gamesense"]={Accent=Color3.fromRGB(140,181,67),lightcontrast=Color3.fromRGB(23,23,23),darkcontrast=Color3.fromRGB(12,12,12),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(58,60,65),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Neverlose"]={Accent=Color3.fromRGB(83,198,131),lightcontrast=Color3.fromRGB(0,15,30),darkcontrast=Color3.fromRGB(3,4,16),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(13,24,37),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)},["Primordial"]={Accent=Color3.fromRGB(194,155,165),lightcontrast=Color3.fromRGB(21,21,21),darkcontrast=Color3.fromRGB(31,31,31),outline=Color3.fromRGB(0,0,0),inline=Color3.fromRGB(67,67,67),textcolor=Color3.fromRGB(255,255,255),textdark=Color3.fromRGB(175,175,175),textborder=Color3.fromRGB(0,0,0),riskytext=Color3.new(1,1,0.5),cursoroutline=Color3.fromRGB(10,10,10)}}},
     ["SkyBoxes"] = {["Normal"]={600886090,600830446,600831635,600832720,600833862,600835177},["DoomSpire"]={6050649245,6050664592,6050648475,6050644331,6050649718,6050650083},["CatGirl"]={444167615,444167615,444167615,444167615,444167615,444167615},["Vibe"]={1417494402,1417494030,1417494146,1417494253,1417494499,1417494643},["Blue Aurora"]={12063984,12064107,12064152,12064121,12064115,12064131},["Purple Clouds"]={151165191,151165214,151165197,151165224,151165206,151165227},["Purple Nebula"]={159454286,159454299,159454296,159454293,159454300,159454288},["Twighlight"]={264909758,264908339,264907909,264909420,264908886,264907379},["Vivid Skies"]={271042310,271042516,271077243,271042556,271042467,271077958},["Purple and Blue"]={149397684,149397692,149397686,149397697,149397688,149397702}},
     ["TracerTextures"] = {["1"]=7136858729,["2"]=6333823534,["3"]=5864341017,["4"]=446111271,["5"]=2950987173,["6"]=7151778302,["7"]=11226108137,["8"]=6511613786},
-    ["oldLighting"] = {Ambient=Lighting.Ambient,FogColor=Lighting.FogColor,FogEnd=Lighting.FogEnd,FogStart=Lighting.FogStart,Brightness=Lighting.Brightness,ShadowSoftness=Lighting.ShadowSoftness,ShadowColor=Lighting.ShadowColor,ColorShift_Bottom=Lighting.ColorShift_Bottom,OutdoorAmbient=Lighting.OutdoorAmbient,ColorShift_Top=Lighting.ColorShift_Top}
+    ["oldLighting"] = {Ambient=Lighting.Ambient,FogColor=Lighting.FogColor,FogEnd=Lighting.FogEnd,FogStart=Lighting.FogStart,Brightness=Lighting.Brightness,ShadowSoftness=Lighting.ShadowSoftness,ShadowColor=Lighting.ShadowColor,ColorShift_Bottom=Lighting.ColorShift_Bottom,OutdoorAmbient=Lighting.OutdoorAmbient,ColorShift_Top=Lighting.ColorShift_Top};
     loaded = false, 
     Connections = {},
     themeNames = {},
@@ -116,7 +116,7 @@ end
         return closestPlayer
     end
     -- 
-    function Osiris:GetClosestPart(Player: Instance, List: Table)
+    function Osiris:GetClosestPart(Player, List)
         local shortestDistance = Huge
         local closestPart
         if Osiris:GetPlayerStatus(Player) then
@@ -134,7 +134,7 @@ end
         end
     end 
     --
-    function Osiris:RandomChance(Percentage: Int)
+    function Osiris:RandomChance(Percentage)
         local Chance = Percentage
         --
         if Random(1,100) <= Chance then
@@ -168,7 +168,7 @@ end
     end 
     --
     
-    function Osiris:CalculateAbsolute(Player: Instance)
+    function Osiris:CalculateAbsolute(Player)
         if Player.Character and Player.Character:FindFirstChild("HumanoidRootPart") then
         local root = Player.Character.HumanoidRootPart
         local character = Player.Character 
@@ -200,12 +200,12 @@ end
         Clear(Osiris)
     end 
     
-    function Osiris:GetPlayerStatus(Player: Instance)
+    function Osiris:GetPlayerStatus(Player)
         if not Player then Player = LocalPlayer end
         return Player.Character and Player.Character:FindFirstChild("Humanoid") and Player.Character.Humanoid.Health > 0 and true or false
     end 
 
-    local function Osiris:RemoveHighlight(player)
+    function Osiris:RemoveHighlight(player)
         if player and player.Character and player.Character:FindFirstChild("Highlight") then 
             player.Character:FindFirstChild("Highlight"):Destroy()
         end 
@@ -1519,7 +1519,7 @@ end
                     fireclickdetector(ws.Ignored.Shop["[High-Medium Armor] - $2163"].ClickDetector)
                     fireclickdetector(ws.Ignored.Shop["[High-Medium Armor] - $2163"].ClickDetector)
                     fireclickdetector(ws.Ignored.Shop["[High-Medium Armor] - $2163"].ClickDetector)
-                    fireclickdetector(ws.Ignored.Shop["[High-Medium Armor] - $2163"].ClickDetector)
+                    fireclickdetector(ws.Ignored.Shop["[High-Medium Armor] - $2163"].ClickDetector) 
                     fireclickdetector(ws.Ignored.Shop["[High-Medium Armor] - $2163"].ClickDetector)
                     fireclickdetector(ws.Ignored.Shop["[High-Medium Armor] - $2163"].ClickDetector)
                     wait(0.5)
@@ -2169,11 +2169,11 @@ end
         if pointers["spinning_cursor"]:get() then 
             if pointers["dynamic_spin"]:get() then 
                 Speed = abs(sin(tick() * 1))
-                SpinAngle += rad(Speed*pointers["spin_speed"]:get()*5*FPS) 
+                SpinAngle = SpinAngle + rad(Speed * pointers["spin_speed"]:get() * 5 * FPS)
             end 
 
             if not pointers["dynamic_spin"]:get() then 
-                SpinAngle += rad(pointers["spin_speed"]:get()*FPS)
+                SpinAngle = SpinAngle + rad(pointers["spin_speed"]:get() * FPS)
             end 
         end 
         --
@@ -2393,7 +2393,7 @@ end
             end 
         
             if pointers["target_strafe"]:get() then 
-                Angle += pointers["strafe_speed"]:get()
+                Angle = Angle + pointers["strafe_speed"]:get()
                 LocalPlayer.Character.HumanoidRootPart.CFrame = Target.Character.HumanoidRootPart.CFrame * CFrame.Angles(0, rad(Angle), 0) * CFrame.new(0, pointers["strafe_height"]:get(), pointers["strafe_radius"]:get())
             end 
 
@@ -2568,7 +2568,6 @@ end
             getgenv().Holding = false
         end 
     end)
-
 
 
 
