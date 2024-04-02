@@ -684,12 +684,11 @@ end
         Value_Slider_Gradient.Data = game:HttpGet("https://raw.githubusercontent.com/portallol/luna/main/Gradient180.png")
         Value_Slider_Gradient.Visible = true
         --  
-        local thumbnailUrl = game:GetService("Players"):GetUserThumbnailAsync(game:GetService("Players").LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size352x352)
-        local imagedata  = game:HttpGet((pImageData["data"][1]["imageUrl"]))
+
         getgenv().TargetDrawing = Drawing.new("Image")
         TargetDrawing.Size = Vector2.new(60,60)
         TargetDrawing.Position = Vector2.new(Value_Inline.Position.X - 72, Frame.Position.Y + 5)
-        TargetDrawing.Data = imagedata
+        TargetDrawing.Data = nil
         TargetDrawing.Visible = true
         TargetDrawing.ZIndex = 1
         --
